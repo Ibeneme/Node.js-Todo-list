@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head><meta charset="UTF-8">
+    <title>Joops</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width:device-width, initial-scale=1.0">
+</head>
+<body>
+    
+ 
+
+    <h1  style="color:blue;"> <%= kindOfDay %> </h1>
+      <ul>
+        <li>tea</li>
+        <li>tea</li>
+        <li>tea</li>
+        <li>tea</li>
+
+        <% for (let i = 0; i<yeahs.length; i++) {%>
+        <li> <%= yeahs[i] %></li>
+        <% } %>
+    </ul>
+  <form class=" " method="post">
+    <input type="text" name="yeah">
+    <button type="submit"> submit</button> 
+    </form>
+
+</body>
+</html>
